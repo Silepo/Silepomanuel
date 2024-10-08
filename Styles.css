@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}     
+
+body{
+    background: #d7ff0073;
+                height: 100vh;
+            margin: 0;
+            background: linear-gradient(270deg, #FF8A00, #E52E71);
+            background-size: 400% 400%;
+            animation: Gradient 15s ease infinite;
+    
+}
+ 
+ @keyframes Gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+nav{
+            background-color: #333;
+            overflow: hidden;
+            justify-content: space-between;
+            display: flex;
+      margin: 15px;
+padding: 15px;
+        }
+
+.logo img{
+    width: 49px;
+}
+
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+            float:inline-start;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+}
+
+nav ul li a:hover {
+        background-color: #ddd;
+            color: black;
+            border-radius: 5px;
+}
+
+.hero {
+    height: 600px;
+    background: url('') no-repeat center center/cover;
+    color: green;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 3em;
+    animation: fadeIn 2s;
+}
+
+.hero img {
+    width: 45%;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#eventos{
+    display: flex;
+}
+#desejo {
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+.btn{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #159b3f;
+    text-decoration: none;
+    kerning: unset;
+}
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.evento-detalhes img {
+    width: 34%;
+    border-radius: 10px;
+    vertical-align: baseline;
+   transition: transform 0.5s;
+}
+
+ img:hover {
+            transform: scale(1.2);
+        }
+#acao {
+    margin-left: 30%;
+    padding: 50px;
+    background-color: #e8e8e8;
+    text-align: center;
+    width: 30%;
+}
+
+#btn-inscricao {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#btn-inscricao:hover {
+    background-color: #218838;
+}
+
+  
+   .parallax {
+            background-image: url(img/musica.png);
+            height: 300px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    .contador {
+    font-size: 3.5em;
+    background: #44555290;  
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+  .content {
+            height: 500px;
+            background-color: white;
+            padding: 30px; 
+            margin: 10px;
+      
+        }
+.content h1{
+    text-align: center;
+    margin: 5px;
+}
+ 
+     .team-member {
+            width: 18%;
+            text-align: center;
+            float: left;
+            padding: 25px;
+            margin: 10px;
+            border:5px solid #ce07ce;
+            border-radius: 15px;
+           
+        }
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            align-items: center;
+            margin: 10px;
+        }
+        .circle img {
+            width: 100%;
+            height: auto;
+        }
